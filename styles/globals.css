@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* CSS HEX */
+/* --dark-purple: #261738ff;
+--silver: #c6c9c2ff;
+--white: #ffffffff;
+--rust: #b94b23ff;
+--midnight-green-eagle-green: #074f57ff; */
 
-* {
-  box-sizing: border-box;
-}
+/* SCSS HEX */
+/* $dark-purple: #261738ff;
+$silver: #c6c9c2ff;
+$white: #ffffffff;
+$rust: #b94b23ff;
+$midnight-green-eagle-green: #074f57ff; */
+
+/* SCSS RGB */
+/* $dark-purple: rgba(38, 23, 56, 1);
+$silver: rgba(198, 201, 194, 1);
+$white: rgba(255, 255, 255, 1);
+$rust: rgba(185, 75, 35, 1);
+$midnight-green-eagle-green: rgba(7, 79, 87, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-right: linear-gradient(90deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-bottom: linear-gradient(180deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-left: linear-gradient(270deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-top-right: linear-gradient(45deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-bottom-right: linear-gradient(135deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-top-left: linear-gradient(225deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-bottom-left: linear-gradient(315deg, #261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff);
+$gradient-radial: radial-gradient(#261738ff, #c6c9c2ff, #ffffffff, #b94b23ff, #074f57ff); */
